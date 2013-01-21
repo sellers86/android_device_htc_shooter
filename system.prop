@@ -42,3 +42,16 @@ ro.phone_storage = 0
 
 # Make rmt_storage start at init
 ro.emmc = 1
+
+# Additional CyanMobile Properties
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.ui.hw=true
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapsize=32m
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-data-only=1
+ro.config.hw_menu_unlockscreen=false
+ro.service.swiqi.supported=true
+debug.sf.hw=1
