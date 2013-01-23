@@ -78,11 +78,11 @@ TARGET_HAVE_HDMI_OUT := true
 TARGET_HARDWARE_3D := true
 
 # Define Prebuilt kernel locations
-#TARGET_PREBUILT_KERNEL := device/htc/shooter/kernel
+TARGET_PREBUILT_KERNEL := device/htc/shooter/kernel
 
 #Lets build kernel inline
-TARGET_KERNEL_SOURCE := kernel/htc/shooter
-TARGET_KERNEL_CONFIG := shooter_defconfig
+#TARGET_KERNEL_SOURCE := kernel/htc/shooter
+#TARGET_KERNEL_CONFIG := shooter_defconfig
 
 # cat /proc/emmc
 # dev:        size     erasesize name
