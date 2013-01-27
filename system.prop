@@ -56,3 +56,4 @@ ro.config.hw_menu_unlockscreen=false
 ro.service.swiqi.supported=true
 debug.sf.hw=1
 ro.squadzone.build=1
+persist.sys.gmaps_hack=1

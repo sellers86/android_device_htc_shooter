@@ -151,7 +151,8 @@ service dhcpcd_eth0 /system/bin/dhcpcd -ABKL eth0
     oneshot
 
 service netd /system/bin/netd
-  soket dnsproxyd stream 0660 root inet
+  socket netd stream 0660 root system
+  socket dnsproxyd stream 0660 root inet
 
 service iprenew_eth0 /system/bin/dhcpcd -n
     disabled
