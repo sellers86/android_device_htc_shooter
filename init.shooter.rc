@@ -384,7 +384,3 @@ on property:ro.build.tags=test-keys
 
 on property:ro.build.tags=release-keys
     start htc_ebdlogd_rel
-
-setprop ro.squadzone.build 1
-setprop persist.sys.gmaps_hack 1
-

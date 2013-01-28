@@ -540,8 +540,3 @@ service dumpstate /system/bin/dumpstate -s
     socket dumpstate stream 0660 shell log
     disabled
     oneshot
-
-
-setprop ro.squadzone.build 1
-setprop persist.sys.gmaps_hack 1
-
