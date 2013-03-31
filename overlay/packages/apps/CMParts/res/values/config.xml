@@ -7,5 +7,4 @@
 
     <!-- Whether or not to display search button settings -->
     <bool name="has_search_button">true</bool>
-    <interger name="fling_animation_duration">350</interger>
 </resources>
